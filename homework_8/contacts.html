@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+    <title>Контакты - Интернет-магазин</title>
+</head>
+<body>
+    <div class="contact-page-wrapper">
+        <header class="page-header">
+            <a class="page-header__logo" href="index.html"><img src="images/logo.png" alt="Site logo"><span class="page-header__title">Интернет-магазин</span></a>
+            <nav class="page-header__menu">
+                <ul>
+                    <li><a class="page-header__links" href="index.html">Главная</a></li>
+                    <li><a class="page-header__links" href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="mobile-menu">
+            <nav class="page-header__menu mobile-menu">
+                <ul>
+                    <li><a class="page-header__links" href="index.html">Главная</a></li>
+                    <li><a class="page-header__links" href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav> 
+        </div>
+        <main>
+            <div class="form-container">
+                <h2>Форма обратной связи</h2>
+                <p>Заполните форму обратной связи и мы вскоре свяжемся с Вами!</p>
+                <form class="feedback-form">
+                    <div class="feedback-form__group">
+                        <input class="feedback-form__input" id="user-name" name="name" required>
+                        <label class="feedback-form__label" for="user-name">Имя</label>
+                    </div>
+                    <div class="feedback-form__group">
+                        <input class="feedback-form__input" id="user-email" type="email" name="email" required>
+                        <label class="feedback-form__label" for="user-email">E-mail</label>
+                    </div>
+                    <div class="feedback-form__group">
+                        <span>Пол</span>
+                        <div class="feedback-form__radio-cont">
+                            <input class="feedback-form__radio" id="user-gender-man" type="radio" name="gender" value="man" required>
+                            <label class="feedback-form__label" for="user-gender-man">Мужчина</label>
+                        </div>
+                        <div class="feedback-form__radio-cont">
+                            <input class="feedback-form__radio" id="user-gender-woman" type="radio" name="gender" value="woman" required>
+                            <label class="feedback-form__label" for="user-gender-woman">Женщина</label>
+                        </div>
+                    </div>
+                    <div class="feedback-form__group">
+                        <textarea class="feedback-form__textarea" id="user-message" name="message"></textarea>
+                        <label class="feedback-form__label" for="user-message">Введите сообщение</label>
+                    </div>
+                    <div class="feedback-form__group box-shadow">
+                        <label class="feedback-form__label" for="user-select">Тема обращения</label>
+                        <select class="feedback-form__select" id="user-select" name="select">
+                            <option selected="" hidden="" data-testid="hidden-option" disabled="" value="" aria-hidden="true">Тема обращения</option>
+                            <option value="value1">Обмен и возврат</option>
+                            <option value="value2" >Гарантия</option>
+                            <option value="value3">Доставка</option>
+                            <option value="value3">Другое</option>
+                        </select>
+                        <div class="selected-value">
+                           <span class="topic"></span>
+                           <svg class="icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M18.966 8.476L12 15.443 5.033 8.476"></path></svg>
+                        </div>
+                    </div>
+                    <div class="feedback-form__group">
+                        <div class="feedback-form__file-cont">
+                            <input class="feedback-form__file-input" type="file" id="user-files" name="files" multiple>
+                            <label class="feedback-form__file-label" for="user-files">Загрузите необходимые файлы</label>
+                            <div class="feedback-form__file-names">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-form__group display-flex">
+                        <input class="feedback-form__checkbox-input" id="user-agreement" type="checkbox" name="agreement">
+                        <label class="feedback-form__label feedback-form__label-checkbox" for="user-agreement">Принимаю условия <a href="#">Пользовательского соглашения</a></label>
+                    </div>
+                    <div class="feedback-form__group center">
+                        <button class="feedback-form_button feedback-form_button-submit" type="submit" name="button">Отправить</button>
+                    </div>
+                
+                   
+                </form>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <div class="page-footer__wrapper">
+                <div class="page-footer__block">
+                    <h3>Категории товаров</h3>
+                    <ul>
+                        <li><a href="#">Бытовая техника</a></a></li>
+                        <li><a href="#">Электроника</a></li>
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Обувь</a></li>
+                        <li><a href="#">Аксессуары</a></li>
+                    </ul>
+                </div>
+                <div class="page-footer__block">
+                    <h3>Разделы сайта</h3>
+                    <ul>
+                        <li><a href="#">Магазины</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Договор оферты</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="page-footer__block">
+                    <h3>Полезные ссылки</h3>
+                    <ul>
+                        <li><a href="https://google.com" target="_blank">google.com</a></li>
+                        <li><a href="https://yandex.ru" target="_blank">yandex.ru</a></li>
+                        <li><a href="https://developer.mozilla.com" target="_blank">developer.mozilla.com</a></li>
+                        <li><a href="https://developer.mozilla.com" target="_blank">mdn</a></li>
+                    </ul>
+                </div>
+                <div class="page-footer__block page-footer__block--last">
+                    <a href="index.html" ><img src="images/logo-bottom.png" alt="Интернет магазин"></a>
+                    <span>(с) Интернет-магазин 2022</span>
+                </div>
+                    
+                
+            </div>                        
+        </footer>
+    </div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'GrasshopperSanatorium';
+    src: url('GrasshopperSanatorium.woff2') format('woff2'),
+        url('GrasshopperSanatorium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vetka';
+    src: url('Vetka.woff2') format('woff2'),
+        url('Vetka.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BoncegroFF4F';
+    src: url('BoncegroFF4F.woff2') format('woff2'),
+        url('BoncegroFF4F.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Leto Text Sans Defect';
+    src: url('LetoTextSansDefect.woff2') format('woff2'),
+        url('LetoTextSansDefect.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
