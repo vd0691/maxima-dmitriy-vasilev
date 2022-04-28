@@ -30,7 +30,7 @@ input, textarea {
   flex-direction: column;
   align-items: center;
   border-radius: 5px;
-  box-shadow: 0px 0px 12px #a39f9f;
+  box-shadow: 0px 0px 12px rgb(163, 159, 159);
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .form-content {
@@ -69,7 +69,7 @@ input, textarea {
   width: 100%;
   height: 58px;
   border-radius: 5px;
-  box-shadow: 0px 0px 6px #a39f9f;
+  box-shadow: 0px 0px 6px rgb(163, 159, 159);
 }
 .feedback-form__label {
   position: absolute;
@@ -109,7 +109,7 @@ input, textarea {
   width: 100%;
   height: 320px;
   border-radius: 5px;
-  box-shadow: 0px 0px 6px #a39f9f;
+  box-shadow: 0px 0px 6px rgb(163, 159, 159);
 }
 .feedback-form__checkbox-input {
   -webkit-appearance: none;
@@ -195,7 +195,7 @@ input, textarea {
   transition-duration: 450ms;
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
   pointer-events: none;
-  box-shadow: 0px 0px 12px #a39f9f;
+  box-shadow: 0px 0px 12px rgb(163, 159, 159);
   border-radius: 5px;
 }
 .feedback-form__select {
@@ -206,7 +206,7 @@ input, textarea {
   opacity: 0;
 }
 .feedback-form .box-shadow {
-  box-shadow: 0px 0px 12px #a39f9f;
+  box-shadow: 0px 0px 12px rgb(163, 159, 159);
   border-radius: 5px;
 }
 .feedback-form .selected-value {
